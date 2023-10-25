@@ -1,0 +1,84 @@
+
+#background {
+    background-image: url("https://ihypress.com/textures/space.gif") ;
+}
+
+header {
+    background-color:rgba(154, 228, 255, 0.549); 
+    border: 1px solid white;
+    padding: 10px;
+}
+
+h1 {
+    color: azure; 
+    font-size: 50px; 
+    text-decoration: underline; 
+    text-align:center;
+    margin-left: 20%;
+    margin-right:20%;
+}
+
+nav { 
+    margin-inline: 10%; 
+    line-height: 50px
+}
+
+a {
+    font-size: large;
+    color: azure; 
+    text-decoration: none;
+    background-color: rgb(106, 164, 252);
+    padding-inline: 20px;
+    white-space: nowrap;
+    margin: 10px;
+}
+
+a:hover {
+    text-decoration: none;
+    color:black;
+    background-color: bisque;
+ }
+
+#Introduction, #Chp1, #Chp2, #Chp3, #Chp4, #Chp5, #Conclusion {
+    margin-left: 20px;
+    color: azure;
+}
+
+.chapters { 
+    margin-left:20%; 
+    margin-right: 20%;
+    margin-top: 10%;
+    z-index: 2;
+}
+
+.hidden {
+    visibility: hidden;
+    &:hover {
+      visibility: visible;
+    }
+}
+.visible {
+    visibility: visible;
+  }
+
+figure{ text-align: center }
+p, figcaption{ color:rgba(240, 255, 255, 0.795); line-height: 30px; }
+aside { color: rgba(240, 255, 255, 0.53) }
+footer { margin-top: 50px }
+
+
+#Picture_of_Woosung { width: 200px}
+#beigeSpray { position: absolute; top: 420px; right:180px ; width:500px; z-index:-1;}
+
+#Spiking_a_ball_picture { width: 400px }
+#nine_man_Volleyball { width: 400px }
+#Army_cadets_in_drill { width: 400px }
+#picture_of_stickers_on_a_computer{ width: 400px }
+#Picture_of_the_CSCU_team{ width: 400px }
+#TMU {position: fixed; bottom:10px; right:10px; width: 100px; }
+
+#rightFloat { float:right }
+#leftFloat {float:left }
+#textCenter { text-align: center }
+#textColor { color: azure }
+
